@@ -15,6 +15,10 @@ ul {
   margin-right: 8px;
 }
 
+#acct-sign-in:hover {
+  background-color: #4082e4;
+}
+
 button {
   background-color: #f8f9fa;
   color: #3c4043;
@@ -73,6 +77,14 @@ form {
 
 #google-searchbar input:focus {
   outline: none;
+}
+
+#google-searchbar:hover {
+  box-shadow: 1px 0px 5px lightgray;
+}
+
+#google-search-buttons button:hover {
+  box-shadow: 0px 0px 2px #a8a8a8;
 }
 
 .inner {
