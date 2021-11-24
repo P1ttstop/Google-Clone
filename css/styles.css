@@ -17,6 +17,7 @@ ul {
 
 button {
   background-color: #f8f9fa;
+  color: #3c4043;
   border: 1px solid transparent;
   border-radius: 4px;
   font-weight: 500;
@@ -109,6 +110,10 @@ footer {
   padding: 10px;
 }
 
+footer ul {
+  margin-top: 0;
+}
+
 li {
   display: inline-block;
   vertical-align: center;
@@ -116,7 +121,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #70757a;
 }
 
 a:hover {
