@@ -3,16 +3,27 @@ body {
   max-width: 100%;
   overflow: hidden;
   font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
 }
 
 ul {
   list-style-type: none;
 }
 
+a button {
+  float: right;
+}
+
+#google-nav-left {
+  display: inline-block;
+  width: 85%;
+  margin-top: 25px;
+}
+
 #acct-sign-in {
   color: #fff;
   background-color: #2b7de9;
-  margin-right: 8px;
+  margin: 14px 14px 14px 0;
 }
 
 #acct-sign-in:hover {
@@ -102,9 +113,6 @@ form {
   width: 1.5rem;
 }
 
-.search-icon {
-}
-
 #google-search-buttons {
   padding-top: 18px;
 }
@@ -160,7 +168,7 @@ a:link footer ul {
 
 .left,
 .right {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .right {
